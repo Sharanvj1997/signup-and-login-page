@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=S, initial-scale=1.0">
+    <title>Document</title> 
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+    <form>
+        <h1>LOGIN</h1>
+        <div class="input-container">
+            <label>Email.ID</label>
+            <input type="text">
+        </div>
+        <div class="input-container">
+            <label>Password</label>
+            <input type="text">
+        </div>
+        <button>Login</button>
+        <button>Continue with Google</button>
+        <a href="#">Forgot Password</a>
+    </form>
+</body>
+</html>
